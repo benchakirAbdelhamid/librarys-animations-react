@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Target the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px; /* You can adjust the width of the scrollbar */
+}
+
+/* Target the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #b51212; /* Change the background color */
+  border-radius: 6px; /* Add rounded corners */
+}
+
+/* Target the scrollbar track on Firefox */
+/* These are used for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f0f0;
+}
+
+/* Optionally, you can style the scrollbar buttons (arrows) */
+::-webkit-scrollbar-button {
+  display: none; /* Hide the buttons in Chrome */
+}
+
+/* Optionally, style the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: #f0f0f0;
+}
